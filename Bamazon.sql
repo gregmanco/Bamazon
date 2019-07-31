@@ -30,4 +30,6 @@ VALUES ("Bug Assault", "Toys", 40, 10),
 ("Outsiders", "Books", 5, 20),
 ("Old School", "Movies", 10, 12);
 
-SELECT * FROM products
+SELECT * FROM products;
+
+SELECT stock_quantity FROM products WHERE item_id = 3;
