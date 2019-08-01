@@ -31,5 +31,5 @@ VALUES ("Bug Assault", "Toys", 40, 10),
 ("Old School", "Movies", 10, 12);
 
 SELECT * FROM products;
-
+3
 SELECT stock_quantity FROM products WHERE item_id = 3;
