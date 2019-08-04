@@ -1,23 +1,24 @@
+-- Drops the bamazon_db if it exist currently. --
 DROP DATABASE IF EXISTS bamazon_db;
-
+-- Creates new database called bamazon_db --
 CREATE DATABASE bamazon_db;
-
+-- Iniates use of the bamazon_db
 USE bamazon_db;
-
+-- Creates a table called products
 CREATE TABLE products (
   item_id INTEGER(10) AUTO_INCREMENT NOT NULL,
-  -- Makes a string column called "name" which cannot contain null --
+  -- Makes a string column called "product_name" which cannot contain null --
   product_name VARCHAR(30) NOT NULL,
-  -- Makes a boolean column called "has_pet" which cannot contain null --
+  -- Makes a string  column called "department_name" which cannot contain null --
   department_name VARCHAR(30),
-  -- Makes a sting column called "pet_name" --
+  -- Makes a numeric column called "price" which cannot be null --
   price INTEGER(10) NOT NULL,
-  -- Makes an numeric column called "pet_age" --
+  -- Makes an numeric column called "stock_quantity" --
   stock_quantity INTEGER(10) NOT NULL,
   -- Sets id as this table's primary key which means all data contained within it will be unique --
   PRIMARY KEY (item_id)
 );
-
+-- Inserts values into the products table --
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Bug Assault", "Toys", 40, 10),
 ("Interstellar DVD", "Movies", 20, 20),
@@ -29,7 +30,6 @@ VALUES ("Bug Assault", "Toys", 40, 10),
 ("Holes", "Books", 5, 20),
 ("Outsiders", "Books", 5, 20),
 ("Old School", "Movies", 10, 12);
-
+-- Select ALL from products table. -- 
 SELECT * FROM products;
-3
-SELECT stock_quantity FROM products WHERE item_id = 3;
+
