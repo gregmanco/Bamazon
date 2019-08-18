@@ -1,8 +1,8 @@
 ### Bamazon
 
-##Bamazon Customer
+## Bamazon Customer
 
-##Description:
+## Description:
 
 This application uses the command line to imitate the amazon storefront using the npm inquirer package. It also uses a MySQL database along with the npm mysql package.
 
@@ -12,29 +12,29 @@ The file bamazonCustomer.js will take in orders from customers and deplete stock
 Must have Node.js and Mysql installed on your computer.
 
 
-##Technologies Used:
+## Technologies Used:
 
 <strong>Javascript, Node.js, MySql, Npm Inquirer</strong>
 
-##NPM Packages:
+## NPM Packages:
 
 Inquirer - Inquirer.js provides the user interface and the inquiry session flow
 
 MySql - Establishes connection with your sql files
 
-##Usage:
+## Usage:
 <ol>
-<li>1. Git clone repo: git@github.com:gregmanco/Bamazon.git</li>
+<li> Git clone repo: git@github.com:gregmanco/Bamazon.git</li>
 
-<li>2. Run Terminal in bamazonCustomer.js</li>
+<li> Run Terminal in bamazonCustomer.js</li>
 
-<li>3. Type "NPM install" (This will install inquirier npm module and mysql module.)</li>
+<li> Type "NPM install" (This will install inquirier npm module and mysql module.)</li>
 
-<li>4. Type node bamazonCustomer.js in ther terminal and a table of items will be displayed</li>
+<li> Type node bamazonCustomer.js in ther terminal and a table of items will be displayed</li>
 
-<li>5. Select which product you would like to buy using the item_id(1-10)</li>
+<li> Select which product you would like to buy using the item_id(1-10)</li>
 
-<li>6. You will be prompted to select the qunatity of the item previously selected.
+<li> You will be prompted to select the qunatity of the item previously selected.
    If the item quantity is greater than the stock it will log " Insufficient Quantity".
    If item quantity is less than the stock_quantity the order will be processed  and a total returned.</li>
    </ol>
