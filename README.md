@@ -23,6 +23,9 @@ Inquirer - Inquirer.js provides the user interface and the inquiry session flow
 MySql - Establishes connection with your sql files
 
 ## Usage:
+
+ In Use Example: https://drive.google.com/file/d/1ZCgBnBX1rmSRFIUB2gRWvX878LpnJgBZ/view
+ 
 <ol>
 <li> Git clone repo: git@github.com:gregmanco/Bamazon.git</li>
 

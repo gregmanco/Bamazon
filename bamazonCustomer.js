@@ -46,7 +46,7 @@ function displayTable() {
             ]).then(function (answers) {
                 connection.query("SELECT stock_quantity, price FROM products WHERE item_id = " + answers.product, function (err, res) {
                     if (err) throw err;
-                    console.log(res[0].stock_quantity)
+                 //   console.log(res[0].stock_quantity)
                     // Setting up variables for specific responses values.
                     var price = res[0].price
                     var quantity = res[0].stock_quantity
